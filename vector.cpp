@@ -25,6 +25,7 @@ int main()
 		cout<<v.at(i)<<" ";
 	}
 	cout<<endl;
+	
 	v.resize();
 	cout<<"Size: "<<v.size();
 	cout<<"Capacity"<<v.capacity();
