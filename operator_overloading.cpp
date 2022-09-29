@@ -41,6 +41,7 @@ int main(){
 	person o1(2);
 	student o2(3);
 	teacher o3();
-	cout<<o3.z<<endl;
+	
+	cout<<"The final value of Z= "<<o3.z<<endl;
 	return 0;
 }
