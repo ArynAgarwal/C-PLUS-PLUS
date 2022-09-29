@@ -16,14 +16,14 @@ int main()
 	}
 	cout<<endl;
 	
-	
+	//C++ has a pre defined binary search function
 	if(binary_search(v.begin(),v.end(),5)){
 		cout<<"5 is present in the vector.";
 	}
 	else
 		cout<<"Not present.";
 	
-	
+	//predefined sort function
 	sort(v.begin(),v.end());
 	
 	if(binary_search(v.begin(),v.end(),5)){
