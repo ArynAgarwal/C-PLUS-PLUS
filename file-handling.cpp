@@ -6,6 +6,7 @@ int main(){
 	ofstream f1;
 	string str;
 	f1.open("D:\\file handling\\abc.txt",ios::app);
+	
 	if(f1.fail())	{
 		cout<<"Failed the open the stream....try again."<<endl;
 		return 10;
