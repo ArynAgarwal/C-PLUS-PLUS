@@ -7,6 +7,7 @@ int main(){
 	sort(m.begin(),m.end());
 
 	map<int,int>::iterator itr;
+	
 	itr=m.begin();
 	
 	for(itr;itr!=m.end();itr++){
