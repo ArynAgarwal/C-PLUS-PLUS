@@ -5,6 +5,7 @@ void InsertionSort(int *arr, int n){
 	int key,j;
 	int count=0;
 	int shifts=0;
+	
 	for(int i=0;i<n;i++){
 		key=arr[i];
 		j= i-1;
