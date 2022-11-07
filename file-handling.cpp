@@ -19,7 +19,6 @@ int main(){
 		f1.close();
 	}
 }
-
 #include<iostream>
 #include<fstream>
 using namespace std;
