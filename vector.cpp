@@ -67,7 +67,6 @@ int main()
 		cout<<v.at(i)<<" ";
 	}
 	cout<<endl;
-	
 	cout<<v.empty()<<endl;
 	v.clear();
 	cout<<v.empty();
