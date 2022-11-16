@@ -29,6 +29,7 @@ class teacher
 {
 	private: 
 		int z;
+	
 	public:
 		void friend operator+(person obj1,student obj2)
 		{
