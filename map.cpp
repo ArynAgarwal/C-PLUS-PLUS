@@ -48,6 +48,7 @@ int main()
 	for(int i=0;i<v.size();i++){
 		cout<<v.at(i)<<" ";
 	}
+	
 	cout<<endl;
 	cout<<"The number of times 8 was present in vector: ";
 	cout<<count(v.begin(),v.end(),8);
